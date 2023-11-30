@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    font-family: 'Inter';
+}
+header{
+    margin-left: 80px;
+    margin-top: 40px;
+}
+section{
+    display: grid;
+    grid-auto-flow: column;
+    margin-left: 70px;
+    text-align: center;
+}
+#card{
+    display: grid;
+    grid-auto-flow: column;
+}
+p{
+    font-style: normal;
+    font-weight: 4300;
+    font-size: 35px;
+    line-height: 45px;
+    color: #265e7e;
+    text-align: left;
+    margin-left: 50px;
+    margin-top: 30px;
+}
+h1{
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 45px;
+    margin-top: 30px;
+    margin-left: 50px;
+    color: #265e7e;
+    text-align: left;
+}
+#imgPrincipal{
+    text-align: center;
+    margin-top: 40px;
+    width: 650px;
+}
+.icon{
+    margin-top: 300px;
+    width: 20px;
+
+}
+#cards{
+    display: grid;
+    grid-auto-flow: column;
+}
+#card{
+    margin-top: 100px;
+}
+button{
+    background-color: #265e7e;
+    color: white;
+    border-radius: 15px;
+    border: none;
+    width: 316px;
+    height: 58px;
+    font-size: 25px;
+    text-align: center;
+    margin-top: 20px;
+    margin-right: 100px;
+    margin-left: 100px;
+}
+button:hover{
+    cursor: pointer;
+    background-color: #3484b3;
+}
+#card:hover{
+    cursor: pointer;
+}
+.icon:hover{
+    cursor: pointer;
+}
